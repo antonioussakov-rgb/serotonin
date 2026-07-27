@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: COMPTE/DEPOT        # <-- À REMPLACER par ton vrai dépôt GitHub (ex: moncompte/serotonin-art)
+  repo: antonioussakov-rgb/serotonin
   branch: main
 
 media_folder: "images"
