@@ -1,10 +1,10 @@
 backend:
   name: github
-  repo: antonioussakov-rgb/serotonin       # <-- À REMPLACER par ton vrai dépôt GitHub (ex: moncompte/serotonin-art)
+  repo: COMPTE/DEPOT        # <-- À REMPLACER par ton vrai dépôt GitHub (ex: moncompte/serotonin-art)
   branch: main
 
-media_folder: "images/uploads"
-public_folder: "/images/uploads"
+media_folder: "images"
+public_folder: "/images"
 locale: "fr"
 
 collections:
