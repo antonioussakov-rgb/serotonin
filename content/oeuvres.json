@@ -1,0 +1,11 @@
+{
+  "items": [
+    { "title_fr": "Reflets d'automne", "title_en": "Autumn Reflections", "medium_fr": "Huile sur toile", "medium_en": "Oil on canvas", "image": "images/art_lac.jpg" },
+    { "title_fr": "Lumière du Sud", "title_en": "Southern Light", "medium_fr": "Huile sur toile", "medium_en": "Oil on canvas", "image": "images/art_arche.jpg" },
+    { "title_fr": "Horizon", "title_en": "Horizon", "medium_fr": "Aquarelle", "medium_en": "Watercolour", "image": "images/art_voiliers.jpg" },
+    { "title_fr": "Ville au crépuscule", "title_en": "City at Dusk", "medium_fr": "Huile sur toile", "medium_en": "Oil on canvas", "image": "images/art_city.jpg" },
+    { "title_fr": "Léopard des neiges", "title_en": "Snow Leopard", "medium_fr": "Aquarelle", "medium_en": "Watercolour", "image": "images/art_leopard.jpg" },
+    { "title_fr": "Regard félin", "title_en": "Feline Gaze", "medium_fr": "Dessin au crayon", "medium_en": "Pencil drawing", "image": "images/art_cat.jpg" },
+    { "title_fr": "Nature morte au vin", "title_en": "Still Life with Wine", "medium_fr": "Dessin au crayon", "medium_en": "Pencil drawing", "image": "images/art_wine.jpg" }
+  ]
+}

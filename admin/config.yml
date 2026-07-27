@@ -1,0 +1,69 @@
+backend:
+  name: github
+  repo: COMPTE/DEPOT        # <-- À REMPLACER par ton vrai dépôt GitHub (ex: moncompte/serotonin-art)
+  branch: main
+
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+locale: "fr"
+
+collections:
+  - name: "oeuvres"
+    label: "Œuvres (peintures & dessins)"
+    files:
+      - name: "oeuvres"
+        label: "Liste des œuvres"
+        file: "content/oeuvres.json"
+        fields:
+          - label: "Œuvres"
+            name: "items"
+            widget: "list"
+            summary: "{{fields.title_fr}}"
+            fields:
+              - { label: "Titre (FR)", name: "title_fr", widget: "string" }
+              - { label: "Titre (EN)", name: "title_en", widget: "string", required: false }
+              - { label: "Technique (FR)", name: "medium_fr", widget: "string" }
+              - { label: "Technique (EN)", name: "medium_en", widget: "string", required: false }
+              - { label: "Photo", name: "image", widget: "image" }
+
+  - name: "bijoux"
+    label: "Bijoux brodés"
+    files:
+      - name: "bijoux"
+        label: "Liste des bijoux"
+        file: "content/bijoux.json"
+        fields:
+          - label: "Bijoux"
+            name: "items"
+            widget: "list"
+            summary: "{{fields.title_fr}}"
+            fields:
+              - { label: "Titre (FR)", name: "title_fr", widget: "string" }
+              - { label: "Titre (EN)", name: "title_en", widget: "string", required: false }
+              - { label: "Technique (FR)", name: "medium_fr", widget: "string" }
+              - { label: "Technique (EN)", name: "medium_en", widget: "string", required: false }
+              - { label: "Photo", name: "image", widget: "image" }
+
+  - name: "textes"
+    label: "Textes du site"
+    files:
+      - name: "textes"
+        label: "Textes"
+        file: "content/textes.json"
+        fields:
+          - { label: "Titre principal (FR)", name: "hero_h1_fr", widget: "string" }
+          - { label: "Titre principal (EN)", name: "hero_h1_en", widget: "string", required: false }
+          - { label: "Accroche (FR)", name: "hero_sub_fr", widget: "text" }
+          - { label: "Accroche (EN)", name: "hero_sub_en", widget: "text", required: false }
+          - { label: "Intro Œuvres (FR)", name: "oe_p_fr", widget: "text" }
+          - { label: "Intro Œuvres (EN)", name: "oe_p_en", widget: "text", required: false }
+          - { label: "Intro Bijoux (FR)", name: "br_p_fr", widget: "text" }
+          - { label: "Intro Bijoux (EN)", name: "br_p_en", widget: "text", required: false }
+          - { label: "Atelier — titre (FR)", name: "at_h2_fr", widget: "string" }
+          - { label: "Atelier — titre (EN)", name: "at_h2_en", widget: "string", required: false }
+          - { label: "Atelier — paragraphe 1 (FR)", name: "at_p1_fr", widget: "text" }
+          - { label: "Atelier — paragraphe 1 (EN)", name: "at_p1_en", widget: "text", required: false }
+          - { label: "Atelier — paragraphe 2 (FR)", name: "at_p2_fr", widget: "text" }
+          - { label: "Atelier — paragraphe 2 (EN)", name: "at_p2_en", widget: "text", required: false }
+          - { label: "Contact — texte (FR)", name: "ct_p_fr", widget: "text" }
+          - { label: "Contact — texte (EN)", name: "ct_p_en", widget: "text", required: false }

@@ -1,0 +1,9 @@
+{
+  "items": [
+    { "title_fr": "Caméléon", "title_en": "Chameleon", "medium_fr": "Broche brodée main", "medium_en": "Hand-embroidered brooch", "image": "images/bij_cameleon.jpg" },
+    { "title_fr": "Oiseau", "title_en": "Bird", "medium_fr": "Broche brodée main", "medium_en": "Hand-embroidered brooch", "image": "images/bij_oiseau.jpg" },
+    { "title_fr": "Bracelet fleuri", "title_en": "Floral bracelet", "medium_fr": "Tissage de perles", "medium_en": "Bead weaving", "image": "images/bij_bracelet.jpg" },
+    { "title_fr": "Bracelet graphique", "title_en": "Graphic bracelet", "medium_fr": "Tissage de perles", "medium_en": "Bead weaving", "image": "images/bij_bracelet_ai.jpg" },
+    { "title_fr": "Boucles nacre", "title_en": "Mother-of-pearl earrings", "medium_fr": "Perles & coquillage", "medium_en": "Beads & shell", "image": "images/bij_boucles.jpg" }
+  ]
+}
