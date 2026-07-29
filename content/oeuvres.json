@@ -48,6 +48,16 @@
       "medium_fr": "Dessin au crayon",
       "medium_en": "Pencil drawing",
       "image": "/images/art_wine.jpg"
+    },
+    {
+      "image": "/images/6001199563680714413.jpg",
+      "medium_fr": "Leopard",
+      "title_fr": "Leopard"
+    },
+    {
+      "title_fr": "Leopard",
+      "medium_fr": "Leopard",
+      "image": "/images/6001199563680714413.jpg"
     }
   ]
 }
