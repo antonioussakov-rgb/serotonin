@@ -5,54 +5,56 @@
       "title_en": "Autumn Reflections",
       "medium_fr": "Huile sur toile",
       "medium_en": "Oil on canvas",
-      "image": "/images/art_lac.jpg"
+      "image": "/images/art_lac.jpg",
+      "sold": false
     },
     {
       "title_fr": "Lumière du Sud",
       "title_en": "Southern Light",
       "medium_fr": "Huile sur toile",
       "medium_en": "Oil on canvas",
-      "image": "/images/art_arche.jpg"
+      "image": "/images/art_arche.jpg",
+      "sold": false
     },
     {
       "title_fr": "Horizon",
       "title_en": "Horizon",
       "medium_fr": "Aquarelle",
       "medium_en": "Watercolour",
-      "image": "/images/art_voiliers.jpg"
+      "image": "/images/art_voiliers.jpg",
+      "sold": false
     },
     {
       "title_fr": "Ville au crépuscule",
       "title_en": "City at Dusk",
       "medium_fr": "Huile sur toile",
       "medium_en": "Oil on canvas",
-      "image": "/images/art_city.jpg"
+      "image": "/images/art_city.jpg",
+      "sold": false
     },
     {
       "title_fr": "Léopard des neiges",
       "title_en": "Snow Leopard",
       "medium_fr": "Aquarelle",
       "medium_en": "Watercolour",
-      "image": "/images/art_leopard.jpg"
+      "image": "/images/art_leopard.jpg",
+      "sold": false
     },
     {
       "title_fr": "Regard félin",
       "title_en": "Feline Gaze",
       "medium_fr": "Dessin au crayon",
       "medium_en": "Pencil drawing",
-      "image": "/images/art_cat.jpg"
+      "image": "/images/art_cat.jpg",
+      "sold": false
     },
     {
       "title_fr": "Nature morte au vin",
       "title_en": "Still Life with Wine",
       "medium_fr": "Dessin au crayon",
       "medium_en": "Pencil drawing",
-      "image": "/images/art_wine.jpg"
-    },
-    {
-      "image": "/images/6001199563680714413.jpg",
-      "medium_fr": "Leopard",
-      "title_fr": "Leopard"
+      "image": "/images/art_wine.jpg",
+      "sold": false
     }
   ]
 }
