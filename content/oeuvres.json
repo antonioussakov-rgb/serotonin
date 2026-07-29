@@ -6,7 +6,7 @@
       "medium_fr": "Huile sur toile",
       "medium_en": "Oil on canvas",
       "image": "/images/art_lac.jpg",
-      "sold": false
+      "sold": true
     },
     {
       "title_fr": "Lumière du Sud",
